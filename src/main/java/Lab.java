@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,7 +29,8 @@ public class Lab {
      * @return a List<Integer> object.
      */
     public List<Integer> createList(){
-        return null;
+        ArrayList<Integer> list = new ArrayList<>();
+        return list;
     }
 
     /**
@@ -39,7 +40,7 @@ public class Lab {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-        return 0;
+        return list.size();
     }
 
     /**
@@ -66,7 +67,7 @@ public class Lab {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
-        return 0;
+        return list.get(index);
     }
 
     /**
